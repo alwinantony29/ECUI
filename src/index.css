@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    box-sizing: border-box;
+}
+
+.custom-shadow{
+    /* box-shadow: "0px 11px 27px 0px #00C6D759"; */
+    box-shadow: 0px 11px 27px 0px rgba(0, 198, 215, 0.35);
+
+}
+.custom-color{
+    background: #00C6D7;
+}
+.noborder{
+    border-width: 0;
+}

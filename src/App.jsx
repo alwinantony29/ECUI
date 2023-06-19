@@ -1,14 +1,16 @@
 import React from "react";
 import Header from "./components/header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Paper from '@mui/material/Paper';
 
 function App() {
   return (
     <>
       <div>
         <Header/>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+        <Paper elevation={3} >
+        <Navbar/>
+        </Paper>
       </div>
     </>
   );
