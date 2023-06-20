@@ -31,11 +31,8 @@ import Badge from '@mui/material/Badge';
 // })
 
 const Navbar = () => {
-    const theme = useTheme()
-    console.log(theme);
     return (
         <div>
-            <ThemeProvider theme={theme}>
                 <Container sx={{ display: "flex", gap: 4, minHeight: "5rem", alignItems: "center", justifyContent: 'space-between' }}>
                     <Box alignItems={"center"} sx={{ minWidth: "8rem", display: "flex" }}>
                         <Typography color='primary' sx={{pr:1}}>
@@ -78,7 +75,6 @@ const Navbar = () => {
                     </Box>
 
                 </Container>
-            </ThemeProvider>
         </div >
     )
 }
