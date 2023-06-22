@@ -1,5 +1,4 @@
-import { Fragment } from "react";
-import { Menu, Transition } from "@headlessui/react";
+import { Menu } from "@headlessui/react";
 import { BsChevronDown, BsChevronUp } from "react-icons/bs";
 
 function Dropdown(props) {

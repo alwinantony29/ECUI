@@ -1,4 +1,3 @@
-import React from 'react'
 import CustomCard from './CustomCard'
 import { Box, Button, Container, Grid, Typography } from '@mui/material'
 

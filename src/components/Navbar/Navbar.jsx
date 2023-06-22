@@ -3,12 +3,11 @@ import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import BasicSelect from '../BasicSelect';
-import { ThemeProvider, createTheme, useTheme } from '@mui/material/styles';
 import SearchBar from './SearchBar';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import { Button, IconButton, Paper } from '@mui/material';
+import { Button, IconButton } from '@mui/material';
 import Badge from '@mui/material/Badge';
 
 
