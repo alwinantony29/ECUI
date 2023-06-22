@@ -1,4 +1,3 @@
-import React from "react";
 import { IoCall, IoLocationSharp, IoMail } from "react-icons/io5";
 import Dropdown from "./DropDown";
 
@@ -6,7 +5,6 @@ const Header = () => {
   return (
     <>
       <div className="h-14 bg-regal-blue flex justify-between items-center text-white px-5">
-
         <div className="flex items-center">
           <div className="flex items-center">
             <IoCall />

@@ -1,7 +1,5 @@
-import { Box, Grid, Paper, Rating, Typography } from '@mui/material'
-import React from 'react'
+import { Box, Rating, Typography } from '@mui/material'
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
-import { Star } from '@mui/icons-material';
 const CustomCard = () => {
   return (
     <>
